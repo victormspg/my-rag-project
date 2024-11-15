@@ -40,6 +40,10 @@ def retrieve_documentation(
         top=3,
     )
 
+    for doc in results:
+        print(doc)
+        break
+
     docs = [
         {
             "id": doc["id"],
